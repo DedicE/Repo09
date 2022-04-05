@@ -7,6 +7,9 @@ function compareDifferentValues(m, n){
 }
 compareDifferentValues(8, "8");
 compareDifferentValues("8", 8);
+compareDifferentValues('8', 8);
+compareDifferentValues("8", "8");
+compareDifferentValues(8, 8);
 console.log(compareDifferentValues(8, "8"));
 console.log(compareDifferentValues("8", 8));
 console.log(compareDifferentValues('8', 8));

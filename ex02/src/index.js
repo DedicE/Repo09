@@ -6,6 +6,8 @@ function myFunction(myParameter) {
     return "The parameter is false!";
     }
     console.log(myFunction(true)); // "true”
+    myFunction(true);
     console.log(myFunction(false)); // "false”
+    myFunction(false);
 // Only change code above this line
 module.exports = myFunction;

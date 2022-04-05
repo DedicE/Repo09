@@ -6,9 +6,14 @@ function myEqualFunction(num) {
     return "Not equal";
 }
 console.log(myEqualFunction(5));
+myEqualFunction(5);
 console.log(myEqualFunction(23));
+myEqualFunction(23);
 console.log(myEqualFunction("23"));
+myEqualFunction("23");
 console.log(myEqualFunction('23'));
+myEqualFunction('23');
 console.log(myEqualFunction("text"));
+myEqualFunction("text");
 // Only change code above this line
 module.exports = myEqualFunction;

@@ -1,7 +1,7 @@
 // Only change code below this line
 function mathTest(x, y){
     if (x < 0 || y < 0){
-        return "undefined";
+        return undefined;
     }
     return Math.round(Math.pow(Math.sqrt(x) + Math.sqrt(y), 2));
 }

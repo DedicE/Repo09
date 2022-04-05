@@ -1,18 +1,8 @@
-// Only change code below this line
- function myTrueBoolean(){
-        var YES = true;
-		var NO = false;
+function myTrueBoolean() {
+    return true;
+}
 
-		if(YES)
-		{
-			console.log(YES);
-		}
+console.log(myTrueBoolean());
+myTrueBoolean();
 
-		if(NO)
-		{
-	    	console.log(NO);
-		}
- }
- myTrueBoolean()
-// Only change code above this line
 module.exports = myTrueBoolean;
